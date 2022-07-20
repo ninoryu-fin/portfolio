@@ -120,24 +120,58 @@ header {
  
 .main-menu ul li a:hover { 
   color: #a1c7c7; 
-} 
+	} 
+	
+/*-----------------------------------------------仕切り線*/
+	
+	
+	
 
 
-
-width: 84%;
-max-width: 1280px;
-margin: 0 auto;
-
-
+	#wrap{
+		width: 60%;
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 12% 0;
+	}
+	
+	h1 {
+		color: #000;
+		font-size: 22px;
+		font-family:"ヒラギノ角ゴ Pro W2", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+		font-weight: bold;
+		margin: 30px 0 ;
+	}
+	
+	h2 {
+		color: #000;
+		font-size: 20px;
+		font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+		font-weight: lighter;
+		margin: 25px 0;
+	}
+	
+	article {
+		color: #000;
+		font-size: 15px;
+		font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	}
+	
+	
+/*-----------------------------------------------仕切り線*/
+	
+	
 
 footer { 
 	background-color: #ecf7f6;
 	text-align: center;
+	width: 100%;
 	padding: 25px 0 ; 
 	display: block;
-}
+	}
+
 footer p {
 	color: #0c3249;
-	font-size: 12px;
+	font-size: 15px;
 	font-family: 'Zen Maru Gothic', sans-serif;
 }
